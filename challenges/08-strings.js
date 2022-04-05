@@ -126,3 +126,5 @@ console.log(totalItems);
 //   food: foodTotal,
 //   random: randomTotal,
 // });
+
+// Truthy and Falsy
