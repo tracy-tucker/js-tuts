@@ -87,7 +87,7 @@ for (let i = 0; i < llama.length; i++) {
   console.log(llama[i]);
   const fullName = `${llama[i]} ${lastName}`;
   newArray.push(fullName);
-  console.log(newArray);
+  console.log("name array", newArray);
 }
 
 const gas = [20, 40, 100, 30];
