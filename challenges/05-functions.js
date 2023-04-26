@@ -9,21 +9,21 @@ const value = function addValues(num1, num2) {
 });
 
 let show = function () {
-  console.log("Anonymous function");
+  console.log('Anonymous function');
 };
 
 show();
 
-// function calculateTotal(subTotal, tax) {
-//   return subTotal + tax;
-// }
-// console.log(calculateTotal(200, 20));
-
-// Refactored!
-
-const calculateTotal = function (subTotal, tax) {
+// Function Challenge:
+function calculateTotal(subTotal, tax) {
   return subTotal + tax;
-};
+}
+console.log(calculateTotal(200, 20));
+
+// Refactored to a function expression!
+// const calculateTotal = function (subTotal, tax) {
+//   return subTotal + tax;
+// };
 
 const order1 = calculateTotal(100, 10);
 const order2 = calculateTotal(50, 5);
