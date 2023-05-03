@@ -196,3 +196,9 @@ const survey = students.reduce(function (survey, student) {
 }, {}); // {} because we need to return an object
 
 console.log('random', survey);
+
+// ---------- A NOTE ON .JOIN()
+// JS Array join(): syntax = array.join(separator)
+// join() method returns an array as a STRING
+// join() method does NOT change the original array
+// Any separator can be specified. The default is comma (,)
